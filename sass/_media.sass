@@ -1,0 +1,429 @@
+@media screen and (max-width: 1200px)
+    .rectangle
+        &__title
+            font-size: 44px
+
+    .appartments
+        &__img
+            width: 445px
+        &__title
+            text-align: center
+        &__descr
+            left: 30px
+            right: 0
+            font-size: 22px
+
+
+    .visit
+        padding-top: 100px
+        height: 530px
+        &__title
+            text-align: center
+        &__description
+            width: 320px
+            // margin-top: 25px    
+        &__form
+            margin-top: 50px
+            margin-left: 20px
+            // width: 280px
+            display: block
+        &__wrapper
+            display: flex
+            flex-wrap: wrap
+            justify-content: space-between
+        &__form-down
+            margin-top: 5px
+        &__input
+            margin-top: 5px
+        &__safety
+            order: 1
+            margin-top: 15px
+        &__btn
+            order: 2
+            margin-top: 15px
+        &__description
+            text-align: justify
+
+
+    .insert
+        height: 1455px
+        &__map-title
+            text-align: center
+            margin: 100px 0 60px
+        &__quest-title
+            text-align: center
+        &__quest-safety
+            order: 3
+            // margin: 0 auto
+            margin-top: 15px
+            text-align: start
+            width: 545px
+        &__btn
+            order:
+        &__form
+            width: 
+            justify-content: space-between
+            padding: 0 42px
+
+
+
+
+    
+@media screen and (max-width: 991px)
+    .rectangle
+        &__title
+            font-size: 38px
+
+    .appartments
+        padding-top: 100px
+        &__title
+            margin-bottom: 10px
+        &__objects
+            width: 75%
+        &__item
+            margin-top: 35px
+        &__description
+            margin-top: 25px
+        &__img
+            width: 335px
+        &__descr
+            font-size: 20px
+            bottom: 20px
+
+
+    .visit
+        &__title
+            margin-bottom: 20px
+        &__description
+            margin-left: 0
+            width: 320px
+            margin-top: 15px    
+            text-align: justify
+
+        &__form
+            margin-top: 30px
+            margin-left: 60px
+            width: 280px
+            display: block
+        &__wrapper
+            display: flex
+            flex-wrap: wrap
+            justify-content: space-between
+        &__form-down
+            margin-top: 5px
+        &__input
+            margin-top: 5px
+        &__input:not(:last-child)
+            margin-right: 0px
+        &__safety
+            margin-top: 10px
+        &__btn
+            margin-top: 10px
+
+
+    .insert
+        &__quest-title
+            margin-bottom: 30px
+        &__quest-safety
+            width: 235px
+            text-align: center
+            margin: 15px auto 0
+            order: 2
+        &__map
+            height: 270px
+        &__map-title
+            margin: 80px 0 40px
+        &__input
+            margin-top: 15px
+            order: 
+            // margin-right: 0
+        &__btn
+            order: 
+            margin-top: 15px
+
+
+@media screen and (max-width: 767px)
+    .rectangle
+        .burger
+            position: absolute
+            width: 20px
+            height: 20px    
+            top: 30px
+            right: 20px
+            span
+                height: 2px
+                background: #fff
+                width: 100%
+                display: block
+                margin-top: 5px
+                transition: .3s all
+            &-active
+                top: 45px
+                span
+                    margin-top: -2px
+                    &:nth-child(1)
+                        transform: rotate(-45deg)
+                    &:nth-child(2)
+                        display: none
+                    &:nth-child(3)
+                        transform: rotate(45deg)
+
+        &__title
+            font-size: 34px
+        &__menu
+            position: fixed
+            display: flex
+            flex-direction: column
+            z-index: 6
+            left: -100%
+            top: 0
+            background: rgba(0,0,0,.6)
+            height: 100%
+            width: 50%
+            justify-content: center
+            margin-top: 0
+            transition: .6s all
+            li
+                margin: 10px auto
+        &__menu-active
+            left: 0
+            transition: .6s all
+
+
+    .appartments
+        height: 1110px
+        &__item
+            width: 180px
+        &__img
+            width: 245px
+        &__descr
+            font-size: 18px
+            bottom: 20px
+
+
+    .visit
+        padding-top: 0
+        &__description
+            width: 500px
+        &__form
+            margin-left: 0
+        &__form-up
+            width: 500px
+        &__form-down
+            width: 500px
+        &__input    
+            width: 240px
+        &__safety
+            width: 240px
+            margin-top: 15px
+        &__btn
+            width: 240px
+
+
+    .insert
+        height: 1300px
+        &__video
+            width: 524px
+        &__quest-title
+            margin-top: 80px
+        &__form
+            text-align: center
+        &__input
+            width: 100%
+        &__input:not(:last-child)
+            margin: 10px auto 0
+        &__btn
+            margin: 10px auto 0
+
+
+    footer
+        text-align: center
+        .footer-wrapper
+            display: block
+            &__links
+                margin-top: 20px 
+                width: 250px
+                margin: 0 auto
+            &__links-second
+                display: flex
+                flex-wrap: wrap
+                justify-content: space-between
+                width: 700px   
+                margin: 0 auto
+                text-align: center
+            &__social
+                margin: 5px auto 0
+                display: flex
+                justify-content: space-between
+                width: 270px    
+
+@media screen and (max-width: 575px)
+    .rectangle
+        &__logo
+            margin-left: 20px
+        &__contact
+            width: 100%
+            display: flex
+            flex-wrap: wrap
+            padding: 0 20px 
+        &__title
+            width: 300px
+            font-size: 26px
+        &__tel
+            margin: 0 auto
+        &__position
+            margin: 0 auto
+        .burger
+            right: 20px
+
+    .appartments
+        padding-top: 20px
+        height: max-content
+        .row
+            display: flex
+            flex-direction: column
+            justify-content: center
+            padding: 0 auto 
+            .col-12
+                // width: 320px
+                margin: 30px auto 0
+        &__img-up
+            display: flex
+            flex-direction: column  
+        &__img-down
+            display: flex
+            flex-direction: column  
+        &__img
+            width: 100%
+            object-fit: cover center    
+        &__descr
+            left: 30px
+        &__title
+            font-size: 30px
+            // margin-bottom: 20px
+        &__objects
+            display: block
+        &__item
+            margin: 30px auto 0
+        &__title
+            margin: 60px auto 0
+        &__bg-three
+            width: 300px
+            top: 115px
+            left: 20px
+        &__bg-two
+            width: 300px
+
+
+
+    .visit
+        padding-top: 100px
+        height: max-content
+        &__title
+            font-size: 30px
+        &__form
+            margin: 40px auto 0
+        &__form-up
+            width: 100%
+        &__form-down
+            width: 100%
+            margin: 0 auto
+        &__description
+            margin: 0 auto
+        &__input    
+            margin: 10px auto 0
+        &__input:not(:last-child)
+            margin: 0 auto
+        &__safety
+            margin: 10px auto 0
+        &__btn
+            margin: 10px auto 80px
+
+
+    .insert
+        &__video
+            width: 100%
+            height: 250px
+        &__map-title
+            font-size: 30px
+            margin: 80px 0 40px
+        &__map
+            width: 100%
+            height: 250px
+        &__quest-title
+            font-size: 30px
+            margin-bottom: 0
+        &__form 
+            display: flex
+            flex-direction: column
+            margin: 30px auto 0 
+            padding: 0
+
+
+@media screen and (max-width: 320px)
+    .rectangle
+        &__logo
+            img
+            width: 115px
+        &__logo-descr
+            font-size: 10px
+            margin: 5px 0 0
+        &__title
+            font-size: 22px
+            line-height: 32px
+            top: 350px
+
+
+    .appartments
+        &__title
+            font-size: 20px
+            margin-top: 100px
+        &__descr
+            font-size: 16px
+        &__bg-two
+            width: 200px
+            right: 116px
+        &__bg-three
+            top: 90px
+            left: 116px
+            width: 200px
+
+
+    .visit
+        padding-top: 50px
+        &__title
+            font-size: 20px
+            margin-top: 80px
+
+
+    .insert
+        &__quest-title
+            font-size: 20px
+            margin-top: 100px
+        &__map-title
+            font-size: 20px
+            margin-top: 100px
+        &__video
+            height: 210px
+        &__map
+            height: 210px
+        &__quest-form
+            width: 100%
+        &__input
+            width: 100%
+            margin: 10px 0 0
+        &__btn
+            width: 100%
+            margin: 10px 0 0
+        &__safety
+            width: 100%
+            margin: 10px 0 0
+        &__bg-five
+            width: 200px
+
+
+    footer
+        .footer-wrapper 
+            &__social
+                width: 228px
+

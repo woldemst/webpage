@@ -1,0 +1,360 @@
+
+*
+    padding: 0
+    margin: 0
+    box-sizing: border-box
+
+
+html
+    scroll-behavior: smooth
+
+
+.rectangle
+    height: 840px
+    width: 100%
+    background: url("../image/bg/bg_1.png") center (center/cover) no-repeat
+    position: relative
+    .row
+        display: flex
+        justify-content: space-between
+    &__logo
+        color: #ffffff
+        font-family: Post No Bills Jaffna SemiBold
+        margin-top: 30px
+        text-align: center
+        &-descr
+            margin-top: 15px
+            font-weight: 300
+            font-size: 12px
+            text-transform: uppercase
+    &__menu
+        display: flex
+        list-style: none
+        margin-top: 55px
+        justify-content: space-between
+        width: 541px
+        a
+            color: #ffffff
+            font-weight: 400  
+            font-size: 14px 
+            font-family: Raleway
+    &__title
+        position: absolute
+        left: 0
+        right: 0
+        margin: 0 auto
+        top: 296px
+        width: 556px
+        height: 109px
+        font-family: Playfair Display
+        font-style: normal
+        font-weight: bold
+        font-size: 48px
+        line-height: 64px
+        text-align: center
+        color: #D4C17F
+    &_mouse
+        position: absolute
+        width: 40px
+        height: 40px
+        left: 0
+        right: 0
+        margin: 0 auto
+        top: 505px   
+        img:hover
+            width: 42px
+            height: 42px
+    &__contact
+        display: flex
+        width: 510px
+        justify-content: space-between
+        color: #ffffff
+        position: absolute
+        bottom: 74px
+        left: 0
+        right: 0
+        margin: 0 auto   
+        a
+            color: #ffffff
+        &__position
+            font-size: 18px
+            font-family: Raleway
+            display: flex
+        &__tel
+            font-size: 18px
+            font-family: Raleway
+            display: flex
+        svg
+            margin: 0 15px 7px 0
+
+.appartments
+    height: 1226px
+    background: #242B33
+    padding-top: 120px
+    position: relative
+    &__bg-two
+        font-size: 400px
+        position: absolute
+        bottom: 860px
+        right: 85px
+    &__bg-three
+        top: 505px
+        position: absolute
+        left: -44px
+    &__title
+        font-family: Playfair Display
+        font-weight: 700
+        font-size: 36px
+        color: #D4C17F
+        margin: 120px 0 40px
+        text-align: center
+    .col-12
+        margin-top: 30px
+        display: flex
+        flex-wrap: wrap
+    &__objects
+        display: flex
+        flex-wrap: wrap
+        list-style: none
+        justify-content: space-between
+        width: 794px
+        margin: 0 auto
+    &__item
+        display: block
+        width: 193px
+        text-align: center
+        position: relative
+    &__description
+        color: #ffffff  
+        font-size: 20px
+        font-weight: 300
+        font-family: Roboto
+        line-height: 27px
+        margin-top: 45px
+        display: block
+    &__img
+        // object-fit: cover
+        width: 535px
+        // height: 320px
+        position: relative
+    &__img-up
+        display: flex
+        justify-content: space-between
+        width: 100%
+    &__img-up-left:hover
+        box-shadow: 4px 4px 6px 
+    &__img-up-right:hover
+        box-shadow: 4px 4px 6px 
+    &__img-down-left:hover
+        box-shadow: 4px 4px 6px 
+    &__img-down-right:hover
+        box-shadow: 4px 4px 6px 
+    &__img-down
+        display: flex
+        justify-content: space-between
+        width: 100%
+    &__descr
+        position: absolute
+        color: #ffffff
+        font-size: 24px
+        font-family: Raleway
+        font-weight: 400
+        bottom: 30px
+        left: 20px  
+        width: 193px
+        a
+            color: #fff
+    #up-left, #up-right, #down-left, #down-right
+        position: relative 
+
+
+.visit
+    height: 560px
+    background: url("../image/bg/bg3.png")
+    padding-top: 180px
+    .col-12
+        display: flex
+        flex-wrap: wrap
+    &__title
+        font-family: Playfair Display
+        font-weight: 700
+        font-size: 36px
+        color: #D4C17F
+        text-align: center;
+    &__description
+        color: #ffffff
+        font-family: Raleway
+        font-weight: 400
+        font-size: 16px
+        line-height: 24px
+        margin-top: 50px
+        width: 535px
+        // margin-right: 30px
+    &__wrapper
+        width: 100%
+        display: flex
+        flex-wrap: wrap
+    &__form
+        width: 520px
+        margin: 53px 0 0 30px
+    &__form-up
+        display: flex
+        flex-wrap: wrap
+        justify-content: space-between
+    &__form-down
+        display: flex
+        flex-wrap: wrap
+        justify-content: space-between
+        margin-top: 35px
+    &__input
+        width: 240px
+        height: 50px
+        padding: 0 20px
+        background: #ffffff50
+        border: none
+        color: #ffffff  
+    &__input::placeholder
+        color: #ffffff        
+    &__safety
+        color: #ffffff
+        display: block
+        width: 240px
+        font-family: Raleway
+        font-weight: 400
+        font-size: 13px
+        line-height: 13px
+        text-align: center
+        margin-top: 11px
+    &__btn
+        width: 240px
+        height: 50px
+        border: none
+        background: #D4C17F
+        color: #ffffff
+
+
+.insert
+    height: 1513px
+    background: #242B33
+    position: relative
+    padding-top: 30px
+    &__bg-four
+        top: -30px
+        position: absolute
+        right: 179px
+    &__bg-five
+        position: absolute
+        bottom: 672px
+        left: 15px
+    &__video
+        text-align: center
+        width: 560px
+        height: 316px
+        margin: 0 auto
+    &__map-title
+        font-size: 36px
+        font-family: Playfair Display
+        font-weight: 700
+        color:  #D4C17F
+        margin: 150px 0 100px
+        text-align: center
+    &__map
+        text-align: center
+        height: 358px
+    &__quest-title
+        font-size: 36px
+        font-family: Playfair Display
+        font-weight: 700
+        color:  #D4C17F
+        margin: 180px 0 50px
+        text-align: center
+    &__quest-form
+        display: flex
+        justify-content: space-between
+        margin-bottom: 180px
+    &__form
+        display: flex
+        flex-wrap: wrap
+    &__quest-safety
+        color: #ffffff
+        display: block
+        width: 235px
+        font-family: Raleway
+        font-weight: 400
+        font-size: 13px
+        line-height: 13px
+        text-align: center
+        padding: 5px 0
+    &__input
+        width: 255px
+        height: 50px
+        padding: 0 20px
+        background: #ffffff50
+        border: none
+        color: #ffffff  
+    &__input::placeholder
+        color: #ffffff
+    &__input:not(:last-child)
+        margin-right: 24px
+    &__btn
+        width: 255px
+        height: 50px
+        border: none
+        background: #D4C17F
+        color: #ffffff
+
+
+footer
+    background: #2D343C
+    padding: 72px 0 60px
+.footer-wrapper
+    display: flex
+    justify-content: space-between
+    &__logo
+        color: #ffffff
+        font-family: Post No Bills Jaffna SemiBold
+        text-align: center
+        &-descr
+            margin-top: 15px
+            font-weight: 300
+            font-size: 12px
+            text-transform: uppercase
+    &__links 
+        list-style: none
+        margin-bottom: 0
+        a
+            color: #ffffff
+            font-size: 14px
+            font-family: Raleway
+            font-weight: 400
+    &__links-sm
+        width: 200px
+    &__second
+        display: flex
+        flex-wrap: wrap
+        justify-content: space-between
+        width: 400px    
+    &__social
+        display: flex
+    &__links-li
+        color: #ffffff
+        font-size: 14px
+        font-family: Raleway
+        font-weight: 400
+        margin-bottom: 5px
+        a:hover
+            color: #D4C17F
+    &__social-img
+        margin-right: 20px        
+        width: 24px
+        height: 24px
+        text-align: center
+        img
+            transition: .5s all
+        img:hover
+            border: 1px solid #242B33
+            border-radius: 50%
+            transform: rotate(360deg)
+            transition: .3s all
+
+
